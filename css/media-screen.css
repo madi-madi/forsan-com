@@ -1,0 +1,99 @@
+
+
+/* Mobile and Tablet's  --> { max-width= 768 px } */
+
+@media (max-width:767px){
+
+.subscribe .form-control
+{
+	margin:2% auto;
+}
+
+.navbar-fixed-top .navbar-collapse,
+ .navbar-fixed-bottom .navbar-collapse
+ {
+ 	max-height: none;
+ }
+
+/*.navbar-inverse .navbar-nav > .active > a,
+ .navbar-inverse .navbar-nav > .active > a:hover,
+  .navbar-inverse .navbar-nav > .active > a:focus {
+    
+    background-color: #F44336;
+}*/
+
+.navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
+    
+    background-color: #f44336;
+  }
+
+
+  .navbar-inverse .navbar-nav > .open > a,
+   .navbar-inverse .navbar-nav > .open > a:hover,
+    .navbar-inverse .navbar-nav > .open > a:focus
+    {
+    	background-color: #f44336;	
+    	opacity: 0.5;
+    }
+
+
+
+
+/**** */
+
+
+
+.spinner img
+{
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin: 50% auto;
+  background-color: #fff;
+
+
+  border-radius: 100%;  
+  -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+  animation: sk-scaleout 1.0s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-scaleout {
+  0% { -webkit-transform: scale(0) }
+  100% {
+    -webkit-transform: scale(1.0);
+    opacity: 0;
+  }
+}
+
+@keyframes sk-scaleout {
+  0% { 
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 100% {
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+    opacity: 0;
+  }
+
+
+/*  <!-- End Sectiion loading --> */
+
+
+}
+
+ /* // sm // Small Screen  */
+@media(min-width:768)and (max-width:991){
+
+
+}
+
+/* // md // Media Screen */
+@media(min-width:992px)and(max-width:1199px ){
+
+}
+
+/*  // lg // Large Screen  */
+
+@media(min-width:1200px){}
